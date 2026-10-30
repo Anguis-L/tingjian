@@ -4,6 +4,8 @@
 
 **MIT 开源**，下载地址：<https://github.com/Anguis-L/tingjian/releases>
 
+**介绍视频（B站，3 分钟）**：<https://www.bilibili.com/video/av1106574622> —— 讲了它怎么用、延迟的物理限制在哪、以及哪些还没验证。
+
 ## 它做什么
 
 - 打开 App，点一下「开始」，就会在后台持续运行（前台服务 + 常驻通知）
