@@ -1,0 +1,29 @@
+# ---- IDE / 本地环境 ----
+*.iml
+.idea/
+.gradle/
+.gradle-home/
+.android-sdk/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# ---- 构建产物 ----
+build/
+app/build/
+*.apk
+*.aab
+
+# ---- 本机专用、不入库 ----
+# 独立工具链（Gradle 8.9 / Android SDK，体积大且可重新下载）
+tools/
+# 参考项目的只读克隆，仅供调研，不参与构建也不随仓库分发
+research/
+# 原始开发机上的便捷脚本：固定了本机路径（tools/、.android-sdk/），对外部机器无效
+scripts/build.ps1
+# 调研笔记，属于过程材料，不放进公开仓库
+调研-现有项目与技术方案.md
+
+# ---- 日志 ----
+*.log

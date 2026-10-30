@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">听见</string>
+    <string name="subtitle">手机麦克风的声音，实时送到蓝牙耳机</string>
+    <string name="not_running">未运行</string>
+    <string name="running">正在运行</string>
+    <string name="start">开始</string>
+    <string name="stop">停止</string>
+    <string name="gain_label">音量增益</string>
+    <string name="treble_label">清晰度（高频补偿）</string>
+    <string name="safety_title">使用须知</string>
+    <string name="safety_text">本应用不是医疗器械，不能替代专业助听器与验配。请从较低音量开始，出现刺耳、耳痛、啸叫时立即降低音量或停止使用。蓝牙链路存在无法消除的延迟，近距离对话可能会出现回声，适合把手机放在声源附近当远程麦克风使用。</string>
+    <string name="battery_button">允许后台运行（关闭电池优化）</string>
+    <string name="notification_title">听见 · 正在助听</string>
+    <string name="notification_stop">停止</string>
+</resources>

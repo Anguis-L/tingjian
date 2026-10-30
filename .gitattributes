@@ -1,0 +1,15 @@
+# 统一换行：仓库里存 LF，检出时按平台/类型转换
+* text=auto
+
+# shell 脚本必须保持 LF，否则 macOS / Linux 上 ./gradlew 会报 bad interpreter
+*.sh text eol=lf
+gradlew text eol=lf
+
+# Windows 批处理保持 CRLF
+*.bat text eol=crlf
+gradlew.bat text eol=crlf
+
+# 二进制
+*.jar binary
+*.png binary
+*.apk binary
